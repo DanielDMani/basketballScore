@@ -1,0 +1,36 @@
+body {
+    margin: 0;
+    background-color: #1B244A;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+}
+
+h3 {
+    color: white;
+    font-size: 30px;
+    font: Verdana;
+    font-weight: 700;
+    text-align: center;
+}
+
+h2 {
+    color: red;
+    background-color: black;
+    text-align: center;
+    font-size: 90px;
+    width: 120px;
+    margin: 20px;
+    border-radius: 10px;
+    /* or any fixed width */
+}
+
+.button-group {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 10px;
+}
+
